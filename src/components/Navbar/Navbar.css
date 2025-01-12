@@ -15,9 +15,8 @@ nav {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   gap: 30px;
 }
-
 nav img {
-  height: 200px;
+  height: 40px;
   width: auto;
 }
 
@@ -32,14 +31,13 @@ nav a:hover {
 }
 
 nav button {
-  background-color: #ffc20e;
+  background-color: var(--col1);
   border: none;
   outline: none;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: white;
-  transition: 0.3 ease-in-out;
+  transition: 0.3s ease-in-out;
   padding: 10px;
-  border-radius: 8%;
 }

@@ -4,12 +4,11 @@
 }
 
 :root {
-  --col1: #ffa052;
+  --col1: #ffc20e;
 }
 
 body {
   background-color: black;
-  font-family: "Poppins", sans-serif;
 }
 .mainhead1 {
   -webkit-text-stroke: 1px var(--col1);
